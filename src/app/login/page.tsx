@@ -1,15 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function Login() {
-	const router = useRouter();
-
 	const handleLogin = (user: string) => {
 		// Store the user in localStorage
 		localStorage.setItem("user", user);
-		// Redirect to the welcome page with the user as a query parameter
-		router.push(`/home?user=${user}`);
 	};
 
 	return (
@@ -19,14 +14,14 @@ export default function Login() {
 			<Link
 				className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
 				href="home"
-				onClick={() => handleLogin(process.env.DB_USER1 as string)}
+				onClick={() => handleLogin(process.env.NEXT_PUBLIC_DB_USER1 as string)}
 			>
 				{process.env.NEXT_PUBLIC_DB_USER1}
 			</Link>
 			<Link
 				className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
 				href="home"
-				onClick={() => handleLogin(process.env.DB_USER2 as string)}
+				onClick={() => handleLogin(process.env.NEXT_PUBLIC_DB_USER2 as string)}
 			>
 				{process.env.NEXT_PUBLIC_DB_USER2}
 			</Link>
