@@ -9,3 +9,12 @@ export interface IUserData {
 		protein: number;
 	};
 }
+
+export interface IUserPrefs {
+	targetWeight: number;
+	kjDailyGoal: number;
+	proteinDailyGoal: number;
+	stepsDailyGoal: number;
+	exerciseWeeklyGoal: number;
+	exerciseDailyGoal: number;
+}

@@ -1,0 +1,48 @@
+{
+	"from": "02/03/2025",
+	"to": "09/03/2025",
+	"data": [
+		{
+			"id": "1",
+			"date": "02/03/2025",
+			"session": "breakfast",
+			"kj": "1500",
+			"protein": "13"
+		},
+		{
+			"id": "2",
+			"date": "02/03/2025",
+			"session": "lunch",
+			"kj": "1500",
+			"protein": "25"
+		},
+		{
+			"id": "3",
+			"date": "02/03/2025",
+			"session": "dinner",
+			"kj": "1500",
+			"protein": "23"
+		},
+		{
+			"id": "1",
+			"date": "03/03/2025",
+			"session": "breakfast",
+			"kj": "1500",
+			"protein": "13"
+		},
+		{
+			"id": "2",
+			"date": "03/03/2025",
+			"session": "lunch",
+			"kj": "1500",
+			"protein": "25"
+		},
+		{
+			"id": "3",
+			"date": "03/03/2025",
+			"session": "dinner",
+			"kj": "1600",
+			"protein": "24"
+		}
+	]
+}
