@@ -4,6 +4,7 @@
 	"data": [
 		{
 			"id": "1",
+			"name": "Steak diane",
 			"date": "02/03/2025",
 			"session": "breakfast",
 			"kj": "1500",
@@ -11,6 +12,7 @@
 		},
 		{
 			"id": "2",
+			"name": "Steak diane",
 			"date": "02/03/2025",
 			"session": "lunch",
 			"kj": "1500",
@@ -18,6 +20,7 @@
 		},
 		{
 			"id": "3",
+			"name": "Steak diane",
 			"date": "02/03/2025",
 			"session": "dinner",
 			"kj": "1500",
@@ -25,6 +28,7 @@
 		},
 		{
 			"id": "1",
+			"name": "Steak diane",
 			"date": "03/03/2025",
 			"session": "breakfast",
 			"kj": "1500",
@@ -32,6 +36,7 @@
 		},
 		{
 			"id": "2",
+			"name": "Steak diane",
 			"date": "03/03/2025",
 			"session": "lunch",
 			"kj": "1500",
@@ -39,6 +44,7 @@
 		},
 		{
 			"id": "3",
+			"name": "Steak diane",
 			"date": "03/03/2025",
 			"session": "dinner",
 			"kj": "1600",

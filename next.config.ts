@@ -9,6 +9,18 @@ const nextConfig: NextConfig = {
 				permanent: true
 			}
 		];
+	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "i.imgur.com",
+				port: "",
+				// Required so string is not null
+				pathname: "**",
+				search: ""
+			}
+		]
 	}
 };
 

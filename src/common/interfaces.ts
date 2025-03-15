@@ -10,6 +10,14 @@ export interface IUserData {
 	};
 }
 
+export interface IUserProfile {
+	name: string;
+	age: number;
+	country: string;
+	picture: string;
+	dateJoined: string;
+}
+
 export interface IUserPrefs {
 	targetWeight: number;
 	kjDailyGoal: number;
